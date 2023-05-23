@@ -1,14 +1,11 @@
 // TODO: Include packages needed for this application
-const inquirer = require('inquirer')
-const generateMarkdown = require('./utils/generateMarkdown')
+const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
+const fs = require('fs');
 
 // console.log(inquirer);
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
 // TODO: Create a function to initialize app
-// Needs to open up some kind of menu to help start writing the readMe
 function init() {
     inquirer
         .prompt ([
@@ -55,7 +52,7 @@ function init() {
                         value: 'mozilla'
                     },
                     {
-                        name: 'Eclipse Public License 2.0',
+                        name: 'Eclipse Public License 1.0',
                         value: 'eclipse'
                     },
                     {
