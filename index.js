@@ -4,9 +4,6 @@ const generateMarkdown = require('./utils/generateMarkdown')
 
 // console.log(inquirer);
 
-// TODO: Create an array of questions for user input
-const questions = [];
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
@@ -89,6 +86,9 @@ function init() {
                 name: 'email'
             },
         ])
+        .then(function(results){
+            fs.writeFileSync("./results/README.md", generateMarkdown(results))
+        })
 }
 
 // Function call to initialize app
