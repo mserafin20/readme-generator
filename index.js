@@ -3,7 +3,6 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 const fs = require('fs');
 
-// console.log(inquirer);
 
 // TODO: Create a function to initialize app
 function init() {

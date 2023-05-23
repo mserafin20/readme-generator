@@ -20,8 +20,7 @@ For this project, we were tasked with using Node.js to create a professional REA
   Node.js v18.16.0 or higher along with version 8.2.4 of Inquirer.
 
   ## Usage
-
-  [Video Here]
+    Answer the questions when prompted in the terminal to help create a professional README file.
 
   ## License 
   This project utilized the MIT License. 
