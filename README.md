@@ -21,6 +21,7 @@ For this project, we were tasked with using Node.js to create a professional REA
 
   ## Usage
     Answer the questions when prompted in the terminal to help create a professional README file.
+[Readme Generator.webm](https://github.com/mserafin20/readme-generator/assets/125826335/f06f35b4-3fb4-454e-a902-d8abb6b90f94)
 
   ## License 
   This project utilized the MIT License. 
