@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
+const generateMarkdown = require('./utils/generateMarkdown')
 
 console.log(inquirer);
 
@@ -10,7 +11,15 @@ const questions = [];
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+// Needs to open up some kind of menu to help start writing the readMe
+function init() {
+    inquirer
+        .prompt (
+            {
+                
+            }
+        )
+}
 
 // Function call to initialize app
 init();
